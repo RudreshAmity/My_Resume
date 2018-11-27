@@ -1,5 +1,8 @@
 <!-- Designed by Mobuild INC
 www.mobuild.co.in
+
+***** Fot animate.css add jquery link then animated CDN link
+
 -->
 
 <!DOCTYPE html>
@@ -11,6 +14,8 @@ www.mobuild.co.in
 <meta charset="utf-8">
 <meta name="keywords" content="Rudresh Narwal resume / cv" />
 <!-- css -->
+<!-- animted.css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> 
 <!-- font-awesome icons -->
 <link rel="stylesheet" href="css/font-awesome.min.css" />
 <!-- //font-awesome icons -->
@@ -44,16 +49,15 @@ www.mobuild.co.in
 				</nav> 
 			</div>
 
-		<div class="w3-banner-grids">
+		<div class="w3-banner-grids" id="home">
 			<div class="col-md-6 w3-banner-grid-left">
 				<div class="w3-banner-img">
-					<img src="images/Rudresh pic.jpeg" alt="img">
-					<h3 class="test">Rudresh Narwal</h3>
-					<p class="test" >Full-Stack Web Developer</p>
-					<p class="test" >Mobile Application Developer</p>
+					<img class="animated bounceInDown" src="images/Rudresh pic.jpeg" alt="img">
+					<h3 class="test">Rudresh</h3>
+					<p class="test" >Web Developer</p>
 				</div>
 			</div>
-			<div class="col-md-6 w3-banner-grid-right">
+			<div class="col-md-6 w3-banner-grid-right animated fadeInRight delay-1s">
 			<div class="w3-banner-text">
 				<h3>Career Goal</h3>
 				<p>My personal goal as a developer is to positively affect the life of one person using the power of technology.If someone manages to go through an experience that has made them smile — or allowed them achieve something they otherwise wouldn't have.
@@ -89,7 +93,7 @@ www.mobuild.co.in
 								<li>
 									<ul class="agileits-address-text">
 										<li class="agile-it-adress-left"><b>LinkedIn Profile</b></li>
-										<li><span>:</span><a href="https://www.linkedin.com/in/rudresh-narwal/" >https://www.linkedin.com/in/rudresh-narwal/</a></li>
+										<li><span>:</span><a href="https://www.linkedin.com/in/rudresh-narwal/"  target="_blank">https://www.linkedin.com/in/rudresh-narwal/</a></li>
 									</ul>
 								</li>
 							</ul> 
@@ -116,11 +120,11 @@ www.mobuild.co.in
 		</div>
 		<div class="w3-about-grids">
 		<div class=" w3-about-grids1">
-				<div class="col-md-6 w3-about-grid-left1">
+				<div class="col-md-6 w3-about-grid-left1 wow bounceInLeft" data-wow-delay="0.3s">
 					<img src="images/ab5.jpg" alt="img1">
 		
 				</div>
-				<div class="col-md-6 w3-about-grid-right1">
+				<div class="col-md-6 w3-about-grid-right1 wow lightSpeedIn" data-wow-delay="0.3s">
 					<h3>Full-Stack Web Developer|Mobile Application Developer</h3>
 					<p> I am a one-man show, a sole individual, who works his heart and soul out to deliver quality to clients! I make sure you get the best quality end product without any compromises.
 						I aim to deliver unmatched quality and approach problems taking into account your suggestions, thoughts & requirements
@@ -155,51 +159,51 @@ www.mobuild.co.in
 	<div class="w3-edu-top" id="experiences">
 	<div class="container">
 		<div class="w3-edu-grids">
-			<div class="col-md-6 w3-edu-grid-left">
+			<div class="col-md-6 w3-edu-grid-left wow zoomInLeft" data-wow-delay="0.3s">
 				<div class="w3-edu-grid-header">
 				<h3>Experiences</h3>
 				</div>
 				<div class="col-md-4 w3-edu-info1">
 					<h3>2017</h3>
 					<h4 class="test">Android Developer</h4>
-			</div>
-			<div class="col-md-6 w3-edu-info2">
+			    </div>
+			  <div class="col-md-6 w3-edu-info2">
 				<h3>NCR Eduservices Pvt Ltd</h3>
 					<h4><i class="fa fa-users" aria-hidden="true"></i><span>Intern</span></h4>
 					<p>Build an Android app which is used to help those seeking work to find job openings in school, colleges and education companies around the world.</p>
-			</div>
-			<div class="clearfix"></div>
-			<div class="col-md-4 w3-edu-info1">
-			<h3>2018</h3>
+			  </div>
+			  <div class="clearfix"></div>
+			 <div class="col-md-4 w3-edu-info1">
+			         <h3>2018</h3>
 					<h4 class="test">Junior Web Developer</h4>
 					
-			</div>
-			<div class="col-md-6 w3-edu-info2">
+			  </div>
+			 <div class="col-md-6 w3-edu-info2">
 				<h3>Mobuild INC</h3>
 					<h4><i class="fa fa-code" aria-hidden="true"></i><span>programmer</span></h4>
 					<p>Key work was to develop full stack web App and mobile app for our clients.</p>
-			</div>
+			 </div>
 				
 			</div>
-			<div class="col-md-6 w3-edu-grid-right">
-			<div class="w3-edu-grid-header">
-			<h3>Education</h3>
-			</div>
+		<div class="col-md-6 w3-edu-grid-right wow zoomInRight" data-wow-delay="0.3s">
+			  <div class="w3-edu-grid-header">
+			     <h3>Education</h3>
+			  </div>
 				<div class="col-md-3 w3-edu-info-right1">
 					<h3>2014-18</h3>
-			</div>
-			<div class="col-md-9 w3-edu-info-right2">
+			    </div>
+			   <div class="col-md-9 w3-edu-info-right2">
 				<h3>Amity University, Noida</h3>
 					<h4>Computer Science</h4>
-			</div>
-			<div class="clearfix"></div>
-			<div class="col-md-3 w3-edu-info-right1">
+			   </div>
+			  <div class="clearfix"></div>
+			  <div class="col-md-3 w3-edu-info-right1">
 				<h3>2013-14</h3>
-			</div>
-			<div class="col-md-9 w3-edu-info-right2">
+			  </div>
+			   <div class="col-md-9 w3-edu-info-right2">
 				<h3>XII</h3>
 					<h4>KL Arya DAV Public School, Hisar, Haryana</h4>
-			</div>
+			   </div>
 			<div class="clearfix"></div>
 			<div class="col-md-3 w3-edu-info-right1">
 			<h3>2011-12</h3>
@@ -246,8 +250,8 @@ www.mobuild.co.in
 						<div class='bar_group__bar thin' label='Java' show_values='true' tooltip='true' value='60'></div>
 						<div class='bar_group__bar thin' label='Firebase' show_values='true' tooltip='true' value='80'></div>
 						<div class='bar_group__bar thin' label='Sql' show_values='true' tooltip='true' value='68'></div>
-						<div class='bar_group__bar thin' label='C++' show_values='true' tooltip='true' value='82'></div>
 						<div class='bar_group__bar thin' label='PWA' show_values='true' tooltip='true' value='88'></div>
+						<div class='bar_group__bar thin' label='React.js' show_values='true' tooltip='true' value='70'></div>
 						</div>
 					</div>
 					<div class="clearfix"></div>
@@ -260,335 +264,334 @@ www.mobuild.co.in
 </div>
 <!-- //skills -->
 
+
 <!-- main-content -->
-	<div class="main-content">
-		<!-- gallery -->
-	<div class="gallery" id="projects">
-		<div class="w3-gallery-head">
-			<h3>My projects</h3>
-		</div>
-	<div class="container">
-		<div class="gallery_gds">
-			<ul class="simplefilter ">
-                <li class="active" data-filter="all">All</li>
-                <li data-filter="1">php</li>
-                <li data-filter="2">Java</li>
-                <li data-filter="3">Web development</li>
-            </ul>   
-            <div class="filtr-container " style="padding: 0px; position: relative; height: 858px;">
-				<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 5" data-sort="Busy streets" style="opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
-					<div class="jm-item-wrapper">
-						<div class="jm-item-image">
-							<img src="images/g1.jpg" alt="property" />
-							<span class="jm-item-overlay"> </span>
-							<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal1">View Details</a></div>
-						</div>	
-						
-					</div>
-				</div>
-				<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="2, 5" data-sort="Luminous night" style="opacity: 1; transform: scale(1) translate3d(380px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
-					<div class="jm-item-wrapper">
-						<div class="jm-item-image">
-							<img src="images/g2.jpg" alt="property" />
-							<span class="jm-item-overlay"> </span>
-							<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal2">View Details</a></div>
-						</div>	
-						
-					</div>
-				</div>
-				<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 4" data-sort="City wonders" style="opacity: 1; transform: scale(1) translate3d(760px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
-					<div class="jm-item-wrapper">
-						<div class="jm-item-image">
-							<img src="images/g31.jpg" alt="property" />
-							<span class="jm-item-overlay"> </span>
-							<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal3">View Details</a></div>
-						</div>	
-						
-					</div>
-				</div>
-				<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 3" data-sort="In production" style="opacity: 1; transform: scale(1) translate3d(0px, 286px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
-					<div class="jm-item-wrapper">
-						<div class="jm-item-image">
-							<img src="images/g4.jpg" alt="property" />
-							<span class="jm-item-overlay"> </span>
-							<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal4">View Details</a></div>
-						</div>	
-					</div>
-				</div>
-				<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="3, 4" data-sort="Industrial site" style="opacity: 1; transform: scale(1) translate3d(380px, 286px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
-					<div class="jm-item-wrapper">
-						<div class="jm-item-image">
-							<img src="images/g5.jpg" alt="property" />
-							<span class="jm-item-overlay"> </span>
-							<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal5">View Details</a></div>
-						</div>	
-					</div>
-				</div>
-				<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="3, 4" data-sort="Industrial site" style="opacity: 1; transform: scale(1) translate3d(380px, 286px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
-					<div class="jm-item-wrapper">
-						<div class="jm-item-image">
-							<img src="images/g6.jpg" alt="property" />
-							<span class="jm-item-overlay"> </span>
-							<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal5">View Details</a></div>
-						</div>
-						
-					</div>
-				</div>
-				<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 3" data-sort="City lights" style="opacity: 1; transform: scale(1) translate3d(0px, 572px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
-					<div class="jm-item-wrapper">
-						<div class="jm-item-image">
-							<img src="images/g7.jpg" alt="property" />
-							<span class="jm-item-overlay"> </span>
-							<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal7">View Details</a></div>
-						</div>	
-						
-					</div>
-				</div>
-				<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="2, 4" data-sort="Dreamhouse" style="opacity: 1; transform: scale(1) translate3d(380px, 572px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
-					<div class="jm-item-wrapper">
-						<div class="jm-item-image">
-							<img src="images/g8.jpg" alt="property" />
-							<span class="jm-item-overlay"> </span>
-							<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal8">View Details</a></div>
-						</div>	
-						
-					</div>
-				</div>
-				<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 3, 4" data-sort="Dreamhouse" style="opacity: 1; transform: scale(1) translate3d(760px, 572px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
-					<div class="jm-item-wrapper">
-						<div class="jm-item-image">
-							<img src="images/g9.jpg" alt="property" />
-							<span class="jm-item-overlay"> </span>
-							<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal9">View Details</a></div>
-						</div>	
-						
-					</div>
-				</div>
-               <div class="clearfix"> </div>
-            </div>
-		</div>
-	</div>	
+<div class="main-content">
+	<!-- gallery -->
+<div class="gallery" id="projects">
+	<div class="w3-gallery-head">
+		<h3>My projects</h3>
 	</div>
-	<!--//gallery-->
+<div class="container">
+	<div class="gallery_gds"> 
+		<div class="filtr-container " style="padding: 0px; position: relative; height: 858px;">
+			<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 5" data-sort="Busy streets" style="opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+				<div class="jm-item-wrapper">
+					<div class="jm-item-image">
+						<img src="images/ab.png" alt="Mobuild" />
+						<span class="jm-item-overlay"> </span>
+						<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal1">View Details</a></div>
+					</div>	
+					
+				</div>
+			</div>
+			<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="2, 5" data-sort="Luminous night" style="opacity: 1; transform: scale(1) translate3d(380px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+				<div class="jm-item-wrapper">
+					<div class="jm-item-image">
+						<img src="images/abc1.png" alt="GBC Networks" />
+						<span class="jm-item-overlay"> </span>
+						<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal2">View Details</a></div>
+					</div>	
+					
+				</div>
+			</div>
+			<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 4" data-sort="City wonders" style="opacity: 1; transform: scale(1) translate3d(760px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+				<div class="jm-item-wrapper">
+					<div class="jm-item-image">
+						<img src="images/g333.jpg" alt="Android" />
+						<span class="jm-item-overlay"> </span>
+						<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal3">View Details</a></div>
+					</div>	
+					
+				</div>
+			</div>
+			<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 3" data-sort="In production" style="opacity: 1; transform: scale(1) translate3d(0px, 286px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+				<div class="jm-item-wrapper">
+					<div class="jm-item-image">
+						<img src="images/g4.jpg" alt="Study Panda" />
+						<span class="jm-item-overlay"> </span>
+						<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal4">View Details</a></div>
+					</div>	
+				</div>
+			</div>
+			<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="3, 4" data-sort="Industrial site" style="opacity: 1; transform: scale(1) translate3d(380px, 286px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+				<div class="jm-item-wrapper">
+					<div class="jm-item-image">
+						<img src="images/g5.jpg" alt="Boteverywhere" />
+						<span class="jm-item-overlay"> </span>
+						<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal5">View Details</a></div>
+					</div>	
+				</div>
+			</div>
+			<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="3, 4" data-sort="Industrial site" style="opacity: 1; transform: scale(1) translate3d(380px, 286px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+				<div class="jm-item-wrapper">
+					<div class="jm-item-image">
+						<img src="images/g6.jpg" alt="To-do React App" />
+						<span class="jm-item-overlay"> </span>
+						<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal5">View Details</a></div>
+					</div>				
+				</div>
+			</div>
+			<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 3" data-sort="City lights" style="opacity: 1; transform: scale(1) translate3d(0px, 572px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+				<div class="jm-item-wrapper">
+					<div class="jm-item-image">
+						<img src="images/g7.jpg" alt="property" />
+						<span class="jm-item-overlay"> </span>
+						<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal7">View Details</a></div>
+					</div>	
+					
+				</div>
+			</div>
+			<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="2, 4" data-sort="Dreamhouse" style="opacity: 1; transform: scale(1) translate3d(380px, 572px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+				<div class="jm-item-wrapper">
+					<div class="jm-item-image">
+						<img src="images/g8.jpg" alt="property" />
+						<span class="jm-item-overlay"> </span>
+						<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal8">View Details</a></div>
+					</div>	
+					
+				</div>
+			</div>
+			<div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 3, 4" data-sort="Dreamhouse" style="opacity: 1; transform: scale(1) translate3d(760px, 572px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
+				<div class="jm-item-wrapper">
+					<div class="jm-item-image">
+						<img src="images/g9.jpg" alt="property" />
+						<span class="jm-item-overlay"> </span>
+						<div class="jm-item-button"><a href="#"  data-toggle="modal" data-target="#myModal9">View Details</a></div>
+					</div>	
+					
+				</div>
+			</div>
+		   <div class="clearfix"> </div>
+		</div>
 	</div>
+</div>	
+</div>
+<!--//gallery-->
+</div>
 <!-- //main-content -->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" >
-				<div class="modal-dialog">
-							<!-- Modal content-->
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-							<div class="w3ls-property-images w3-pop1-img">
-							</div>
-					
-						<div class="ins-details">
-							<div class="ins-name">
-								<h3>voluptatem accusantium doloremque</h3>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-								
-							</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" >
+			<div class="modal-dialog">
+						<!-- Modal content-->
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<div class="w3ls-property-images w3-pop1-img">
+						</div>
+				
+					<div class="ins-details">
+						<div class="ins-name">
+							<h3>Mobuild</h3>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
 							
 						</div>
-						<div class="clearfix"></div>			
-			     </div>
-	</div>
-					 
+						
+					</div>
+					<div class="clearfix"></div>			
+			 </div>
+</div>
+				 
 <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" >
-				<div class="modal-dialog">
-							<!-- Modal content-->
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-							<div class="w3ls-property-images">
-								<img src="images/gal11.jpg" alt="image">
-							</div>
-					
-						<div class="ins-details">
-							<div class="ins-name">
-								<h3>voluptatem accusantium doloremque</h3>
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-								
-							</div>
+			<div class="modal-dialog">
+						<!-- Modal content-->
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<div class="w3ls-property-images">
+							<img src="images/av.png" alt="Mobuild">
+						</div>
+				
+					<div class="ins-details">
+						<div class="ins-name">
+							<h3>Mobuild</h3>
+							<p>Developed PWA for Mobuild INC. PWA combines the best of the web and the best of apps. PWA is useful to users from the very first visit in a browser tab, no install required. It loads quickly, even on flaky networks, sends relevant push notifications, has an icon on the home screen, and loads as a top-level, full-screen experience. It is enhanced with service workers to work offline & have connected this PWA to Firebase.
+								<br> Link:- <a href="https://mobuild.co.in/" target="_blank">https://mobuild.co.in/
+							</p>
 							
 						</div>
-						<div class="clearfix"></div>			
-			     </div>
-	</div>
-					 
+						
+					</div>
+					<div class="clearfix"></div>			
+			 </div>
+</div>
+				 
 <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" >
-				<div class="modal-dialog">
-							<!-- Modal content-->
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-							<div class=" w3ls-property-images w3-pop1-img2">
-							<img src="images/gal22.jpg" alt="image">
-							</div>
-					
-						<div class=" ins-details">
-							<div class="ins-name">
-								<h3>voluptatem accusantium doloremque</h3>
-								
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-								
-							</div>
+			<div class="modal-dialog">
+						<!-- Modal content-->
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<div class=" w3ls-property-images w3-pop1-img2">
+						<img src="images/abc.png" alt="image">
+						</div>
+				
+					<div class=" ins-details">
+						<div class="ins-name">
+							<h3>GBC Networks</h3>
+							
+							<p>Developed full frontend and backend system for GBCNetworks.
+							   Technology Used:- Angular 6, TypeScript, Firebase, Material Design and many more.<br>
+								Link:- <a href="https://sample-33b0b.firebaseapp.com/home"  target="_blank">https://sample-33b0b.firebaseapp.com/home </a> </p>
 							
 						</div>
-						<div class="clearfix"></div>			
-			     </div>
-	</div>
-					 
+						
+					</div>
+					<div class="clearfix"></div>			
+			 </div>
+</div>
+				 
 <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" >
-				<div class="modal-dialog">
-							<!-- Modal content-->
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-							<div class="w3ls-property-images w3-pop1-img3">
-							<img src="images/gal33.jpg" alt="image">
-							</div>
-					
-						<div class="ins-details">
-							<div class="ins-name">
-								<h3>voluptatem accusantium doloremque</h3>
-								
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-								
-							</div>
+			<div class="modal-dialog">
+						<!-- Modal content-->
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<div class="w3ls-property-images w3-pop1-img3">
+						<img src="images/gal33.jpg" alt="image">
+						</div>
+				
+					<div class="ins-details">
+						<div class="ins-name">
+							<h3>Android App Development</h3>
+							
+							<p>This project involves the development of Android app which is used to help those seeking work to find job openings in school, colleges and education companies around the world. In this project, we used JSON for exchanging data with the server with the working of API. This app will assist users in Finding jobs, Employment & Career Opportunities in Education domain</p>
 							
 						</div>
-						<div class="clearfix"></div>			
-			     </div>
-	</div>
-					 
+						
+					</div>
+					<div class="clearfix"></div>			
+			 </div>
+</div>
+				 
 <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" >
-				<div class="modal-dialog">
-							<!-- Modal content-->
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-							<div class=" w3ls-property-images w3-pop1-img4">
-							<img src="images/gal44.jpg" alt="image">
-							</div>
-					
-						<div class=" ins-details">
-							<div class="ins-name">
-								<h3>voluptatem accusantium doloremque</h3>
-								
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-								
-							</div>
+			<div class="modal-dialog">
+						<!-- Modal content-->
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<div class=" w3ls-property-images w3-pop1-img4">
+						<img src="images/gal44.jpg" alt="image">
+						</div>
+				
+					<div class=" ins-details">
+						<div class="ins-name">
+							<h3>Study Panda</h3>
+							
+							<p>Developed PWA for Study Panda INC. PWA combines the best of the web and the best of apps. PWA is useful to users from the very first visit in a browser tab, no install required. It loads quickly, even on flaky networks, sends relevant push notifications, has an icon on the home screen, and loads as a top-level, full-screen experience. It is enhanced with service workers to work offline & have connected this PWA to Firebase.
+									<br> Link:- <a href="https://studypanda.co.in/" target="_blank">https://studypanda.co.in/</a></p>
 							
 						</div>
-						<div class="clearfix"></div>			
-			     </div>
-	</div>
-					 
+						
+					</div>
+					<div class="clearfix"></div>			
+			 </div>
+</div>
+				 
 <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" >
-				<div class="modal-dialog">
-							<!-- Modal content-->
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-							<div class=" w3ls-property-images w3-pop1-img5">
-							<img src="images/gal66.jpg" alt="image">
-							</div>
-					
-						<div class=" ins-details">
-							<div class="ins-name">
-								<h3>voluptatem accusantium doloremque</h3>
-								
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-								
-							</div>
+			<div class="modal-dialog">
+						<!-- Modal content-->
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<div class=" w3ls-property-images w3-pop1-img5">
+						<img src="images/gal66.jpg" alt="Boteverywhere">
+						</div>
+				
+					<div class=" ins-details">
+						<div class="ins-name">
+							<h3>Boteverywhere</h3>
+							
+							<p>Developed PWA for Boteverywhere Pvt Ltd. PWA combines the best of the web and the best of apps. PWA is useful to users from the very first visit in a browser tab, no install required. It loads quickly, even on flaky networks, sends relevant push notifications, has an icon on the home screen, and loads as a top-level, full-screen experience. It is enhanced with service workers to work offline & have connected this PWA to Firebase.</p>
 							
 						</div>
-						<div class="clearfix"></div>			
-			     </div>
-	</div>
-					 
+						
+					</div>
+					<div class="clearfix"></div>			
+			 </div>
+</div>
+				 
 <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" >
-				<div class="modal-dialog">
-							<!-- Modal content-->
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-							<div class=" w3ls-property-images w3-pop1-img6">
-								<img src="images/gal61.jpg" alt="image">
-							</div>
-					
-						<div class=" ins-details">
-							<div class="ins-name">
-								<h3>voluptatem accusantium doloremque</h3>
+			<div class="modal-dialog">
+						<!-- Modal content-->
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<div class=" w3ls-property-images w3-pop1-img6">
+							<img src="images/gal61.jpg" alt="To-Do App">
+						</div>
+				
+					<div class=" ins-details">
+						<div class="ins-name">
+							<h3>React To-do App</h3>
 
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-								
-							</div>
+							<p>Develped To-do Real Time App.<br>
+							Technology Used:- Firebase, React</p>
 							
 						</div>
-						<div class="clearfix"></div>			
-			     </div>
-	</div>
-					 
+						
+					</div>
+					<div class="clearfix"></div>			
+			 </div>
+</div>
+				 
 <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" >
-				<div class="modal-dialog">
-							<!-- Modal content-->
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-							<div class=" w3ls-property-images w3-pop1-img7">
-								<img src="images/gal77.jpg" alt="image">
-							</div>
-					
-						<div class="ins-details">
-							<div class="ins-name">
-								<h3>voluptatem accusantium doloremque</h3>
-								
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-								
-							</div>
+			<div class="modal-dialog">
+						<!-- Modal content-->
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<div class=" w3ls-property-images w3-pop1-img7">
+							<img src="images/gal77.jpg" alt="image">
+						</div>
+				
+					<div class="ins-details">
+						<div class="ins-name">
+							<h3>React Ninja App</h3>
+							
+							<p>React Web App with Firebase cloud functions like authentication, cloud Firestore and Cloud Messages.</p>
 							
 						</div>
-						<div class="clearfix"></div>			
-			     </div>
-	</div>
+						
+					</div>
+					<div class="clearfix"></div>			
+			 </div>
+</div>
 <div class="modal fade" id="myModal8" tabindex="-1" role="dialog" >
-				<div class="modal-dialog">
-							<!-- Modal content-->
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-							<div class=" w3ls-property-images w3-pop1-img8">
-								<img src="images/gal88.jpg" alt="image">
-							</div>
-					
-						<div class=" ins-details">
-							<div class="ins-name">
-								<h3>voluptatem accusantium doloremque</h3>
-								
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-								
-							</div>
+			<div class="modal-dialog">
+						<!-- Modal content-->
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<div class=" w3ls-property-images w3-pop1-img8">
+							<img src="images/gal88.jpg" alt="image">
+						</div>
+				
+					<div class=" ins-details">
+						<div class="ins-name">
+							<h3>Flutter App</h3>
+							
+							<p>Basic App for Dignostics and Ultrasound.</p>
 							
 						</div>
-						<div class="clearfix"></div>			
-			     </div>
-	</div>
+						
+					</div>
+					<div class="clearfix"></div>			
+			 </div>
+</div>
 <div class="modal fade" id="myModal9" tabindex="-1" role="dialog" >
-				<div class="modal-dialog">
-							<!-- Modal content-->
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-							<div class=" w3ls-property-images w3-pop1-img9">
-							<img src="images/gal99.jpg" alt="image">
-							</div>
-					
-						<div class="ins-details">
-							<div class="ins-name">
-								<h3>voluptatem accusantium doloremque</h3>
-								
-								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
-								
-							</div>
+			<div class="modal-dialog">
+						<!-- Modal content-->
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<div class=" w3ls-property-images w3-pop1-img9">
+						<img src="images/gal99.jpg" alt="image">
+						</div>
+				
+					<div class="ins-details">
+						<div class="ins-name">
+							<h3>Flutter Music App</h3>
+							
+							<p>iOS and Android app for music listing and many more.</p>
 							
 						</div>
-						<div class="clearfix"></div>			
-			     </div>
-	</div>				 					
- <script src="js/jquery.filterizr.js"></script>
-    
-    <!-- Kick off Filterizr -->
-    <script type="text/javascript">
-        $(function() {
-            //Initialize filterizr with default options
-            $('.filtr-container').filterizr();
-        });
-    </script>
+						
+					</div>
+					<div class="clearfix"></div>			
+			 </div>
+</div>				 					
+<script src="js/jquery.filterizr.js"></script>
 
+<!-- Kick off Filterizr -->
+<script type="text/javascript">
+	$(function() {
+		//Initialize filterizr with default options
+		$('.filtr-container').filterizr();
+	});
+</script>
 <!-- contact -->
 	 <div class="contact" id="contact">
-	<div class="container">
+	<div class="container wow fadeInDownBig" data-wow-delay="0.1s">
 		<div class="w3ls-heading">
 			<h3>Contact me</h3>
 		</div>
@@ -607,7 +610,7 @@ www.mobuild.co.in
 					<div class="clearfix"> </div> 
 				</form>
 			</div>  
-
+       </div>
 	</div>
 </div>
 <!-- //contact -->
@@ -618,7 +621,7 @@ www.mobuild.co.in
 			<div class="w3ls_footer_grids">
 				
 				<div class="w3ls_footer_grid">
-					<div class="col-md-4 w3ls_footer_grid_left">
+					<div class="col-md-4 w3ls_footer_grid_left wow fadeInRight" data-wow-delay="0.1s">
 						<div class="w3ls_footer_grid_leftl">
 							<i class="fa fa-map-marker" aria-hidden="true"></i>
 						</div>
@@ -628,7 +631,7 @@ www.mobuild.co.in
 						</div>
 						<div class="clearfix"> </div>
 					</div>
-					<div class="col-md-4 w3ls_footer_grid_left">
+					<div class="col-md-4 w3ls_footer_grid_left wow fadeInRight" data-wow-delay="0.3s">
 						<div class="w3ls_footer_grid_leftl">
 							<i class="fa fa-envelope" aria-hidden="true"></i>
 						</div>
@@ -638,7 +641,7 @@ www.mobuild.co.in
 						</div>
 						<div class="clearfix"> </div>
 					</div>
-					<div class="col-md-4 w3ls_footer_grid_left">
+					<div class="col-md-4 w3ls_footer_grid_left wow fadeInRight" data-wow-delay="0.5s">
 						<div class="w3ls_footer_grid_leftl">
 							<i class="fa fa-phone" aria-hidden="true"></i>
 						</div>
@@ -657,6 +660,8 @@ www.mobuild.co.in
 		</div>
 	</div>
 <!-- //footer -->
+<!--jquery to activate animated.css -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/bars.js"></script>
 <!-- start-smoth-scrolling -->
 <script src="js/SmoothScroll.min.js"></script>
@@ -678,6 +683,11 @@ www.mobuild.co.in
 	<script src="js/menu.js"></script>
 <!-- //menu-js --> 	
 
+<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+			  
 
 <script type="text/javascript" src="js/move-top.js"></script>
 
